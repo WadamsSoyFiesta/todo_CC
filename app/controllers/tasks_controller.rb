@@ -14,7 +14,7 @@ class TasksController < ApplicationController
   end
 
   def create
-    @list = List.find(params[:list_id])
+    @list = List.find(params[:list_id])    @list = List.find(params[:list_id])    @list = List.find(params[:list_id])    @list = List.find(params[:list_id])    @list = List.find(params[:list_id])    @list = List.find(params[:list_id])    @list = List.find(params[:list_id])    @list = List.find(params[:list_id])    @list = List.find(params[:list_id])
     raw_params = params[:task].is_a?(String) ? JSON.parse(params[:task]) : params[:task]
     task_params = ActionController::Parameters.new(raw_params)
     @task = @list.tasks.new(task_params.permit(:name))
