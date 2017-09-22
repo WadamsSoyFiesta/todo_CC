@@ -19,5 +19,14 @@ class ListsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to(root_url) }
     end
+    respond_to do |format|
+      format.html { redirect_to(root_url) }
+    end
+    respond_to do |format|
+      format.html { redirect_to(root_url) }
+    end
+    respond_to do |format|
+      format.html { redirect_to(root_url) }
+    end
   end
 end
