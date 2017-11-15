@@ -16,6 +16,7 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
+gem 'rubocop', require: false
 
 platform :ruby do
   gem 'mysql2'
