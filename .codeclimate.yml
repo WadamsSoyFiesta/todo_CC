@@ -1,4 +1,4 @@
 prepare: 
-fetch: 
-- url: 'https://gist.github.com/WadamsSoyFiesta/98bb7a4fa6652d34dd91a5c39176cb54' 
-    path: ".codeclimate.yml"
+	fetch: 
+		- url: 'https://gist.githubusercontent.com/WadamsSoyFiesta/98bb7a4fa6652d34dd91a5c39176cb54/raw/b0252a6db1f3981797e8e215ccb84f2a19e1428e/codeclimateconfigtotal' 
+  	  path: ".codeclimate.yml"
